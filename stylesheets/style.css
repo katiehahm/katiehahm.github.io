@@ -1,45 +1,27 @@
 a {
-  /*what is this?*/
   text-decoration: none;
 }
-
-body {
-	background-color: rgba(100,50,50,0.15);
-}
-
-/*tags for all pages*/
-/*#name {
-	text-align: center;
-}*/
 
 #navi {
 	text-align: center;
 	font-family: Papyrus, fantasy;
 	font-size: 20px;
-	/*max-width: 940px;*/
-  	/*margin: 0 auto;*/
   	padding: 2% 5%;
-	
+	z-index: 1;
 	width: 100%;
 	height: 100%;
 	position: fixed;
 	left: 0px;
 	top: 0px;
-	background-color: rgba(0,0,100,0.1);
-	color: white;
 }
 
 /*tags for index.html*/
 #welcome {
-  	/*max-width: 940px;
-  	margin: 0 auto;
-  	padding: 0 5%;*/
   	width: 100%;
 	height: 100%;
 	position: fixed;
 	left: 0px;
 	top: 0px;
-  	/*position: absolute;*/
   	top: 20%;
   	left: 60%;
   	width: 100%;
@@ -68,7 +50,6 @@ body {
 	text-align: center;
 	font-style: italic;
 	color: rgba(0,0,0,0.6);
-  	/*background-color: rgba(300,300,300,0.3);*/
   	font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
 }
 
@@ -76,7 +57,6 @@ body {
 	text-align: center;
 	font-family: "Georgia", serif;
 	color: rgba(0,0,0,0.6);
-  	/*background-color: rgba(300,300,300,0.3);*/
 }
 
 #contact {
@@ -86,26 +66,40 @@ body {
   	background-color: rgba(300,300,300,0.3);
 }
 
-/*#pics {
-  max-width: px;
-  margin: 0 auto;
-  padding: 0 5%;
-}*/
-/*
-img.resize{
-    width:30%;  you can use % 
+#pics.img {
+    display: block;
+    max-width:230px;
+    max-height:95px;
+    width: auto;
     height: auto;
-}*/
-
-
-
-#pics {
-	img {
-	    display: block;
-	    max-width:230px;
-	    max-height:95px;
-	    width: auto;
-	    height: auto;
-	}
 	color: black;
+	background-color: rgba(300,300,300,1);
 }
+
+#pics{
+	margin: auto;
+	width: 1050px;
+}
+#pics ul{
+	margin: 0;
+	padding: 0;
+}
+#pics li{
+	float: left;
+	margin: 0px 5px 0 5px;
+	width: 500px;
+	list-style: none;
+}
+#pics img{
+	float: left;
+}
+#pics p{
+	margin: 0 auto;
+	background-color: rgba(300,300,300,0.3);
+	text-align: center;
+	font-size: 30px;
+  	font-style: italic;
+  	color: black;
+  	font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+}
+
