@@ -7,9 +7,9 @@ a {
 	font-family: Papyrus, fantasy;
 	font-size: 20px;
   	padding: 2% 5%;
-	z-index: 1;
+	/*z-index: 1;*/
+	color: rgba(100, 0, 100, 1);
 	width: 100%;
-	height: 100%;
 	position: fixed;
 	left: 0px;
 	top: 0px;
@@ -66,19 +66,19 @@ a {
   	background-color: rgba(300,300,300,0.3);
 }
 
-#pics.img {
+#pics img {
     display: block;
-    max-width:230px;
-    max-height:95px;
-    width: auto;
-    height: auto;
-	color: black;
-	background-color: rgba(300,300,300,1);
+    max-width:500px;
+    max-height: 500px;
+    /*width: auto;
+    height: auto;*/
+	/*color: black;*/
+	/*background-color: rgba(300,300,300,1);*/
 }
 
 #pics{
 	margin: auto;
-	width: 1050px;
+	width: 1080px;
 }
 #pics ul{
 	margin: 0;
@@ -86,15 +86,16 @@ a {
 }
 #pics li{
 	float: left;
-	margin: 0px 5px 0 5px;
+	/*clear: both;*/
+	margin: 0px 10px 0 10px;
 	width: 500px;
 	list-style: none;
 }
-#pics img{
-	float: left;
+#pics img {
+	/*float: left;*/
 }
 #pics p{
-	margin: 0 auto;
+	/*margin: auto;*/
 	background-color: rgba(300,300,300,0.3);
 	text-align: center;
 	font-size: 30px;
@@ -102,4 +103,18 @@ a {
   	color: black;
   	font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
 }
+
+/*
+#example {
+	position: relative;
+	bottom: 100px;
+	clear: both;
+	height: 200px;
+	width: 200px;
+	background: url(../images/korea_melon.jpg) no-repeat center center;
+	background-size: cover;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+}*/
 
