@@ -1,0 +1,18 @@
+#ptable {
+	width: 70%;
+	height: 80%;
+	position: fixed;
+	left: 25%;
+	top: 10%;
+	bottom: 10%;
+	z-index: 1;
+}
+
+#ptable td {
+	background-color: rgba(255, 255, 255, 0.3);
+}
+
+#ptable th {
+	background-color: rgba(255, 255, 255, 0.3);
+	color: black;
+}

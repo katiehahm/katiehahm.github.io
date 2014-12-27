@@ -1,5 +1,5 @@
 ## Katie's personal page
-#### July 14, 2014
+<!-- #### July 14, 2014
 
 ## Overview
 
@@ -23,3 +23,4 @@ There will be navigation tabs to go to the four pages. The design will be simple
 <nav> for navigating the tabs
 lots of photos in the background/sides
 resume will need many header types and font 
+ -->
