@@ -1,0 +1,37 @@
+body, html {
+   margin: 0;
+   height: 100%;
+   font-family: 'Open Sans', sans-serif;
+}
+
+#navname {
+    text-align: center;
+}
+
+#nav {
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+}
+
+#nav ul {
+    padding-left: 0;
+    text-align: center;
+}
+
+#nav li {
+    display: inline;
+    list-style: none; 
+}
+
+#nav a:link,a:visited {
+    display: inline-block;
+    width:120px;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+}
+
+#nav a:hover,a:active {
+}

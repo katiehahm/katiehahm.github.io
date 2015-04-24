@@ -1,77 +1,24 @@
-body, html {
-   margin: 0;
-   height: 100%;
-   font-family: 'Open Sans', sans-serif;
+.circle {
+	border-radius: 50% 50% 50% 50%;
+	width: 150px;
+	height: 150px;
 }
 
-#navi { 
-   margin: 0; 
-   padding: 0;
-   background: #000000;
-   width: 20%;
-   height: 100%;
-   position: left;
-} 
-
-#navi ul {
-   margin: 0; 
-   padding: 0; 
-   list-style: none;
-} 
-
-#navi ul li { 
-   margin: 0; 
-   padding: 0; 
-   list-style: none;
-   text-align: center;
+.circlesm {
+	border-radius: 20% 20% 20% 20%;
+	width: 200px;
+	height: 200px;
+	margin-left: 30%;
+	margin-top: 2%;
+	margin-bottom: 2%;
 }
 
-#navi ul a:link { 
-   margin: 0; 
-   padding: 0; 
-   text-decoration: none;
-   font-size: medium;
-   color: #E4E5D9; 
-   display: block; 
-} 
-
-#navi ul a:active { 
-   margin: 0; 
-   padding: 0; 
-   text-decoration: none; 
-   font-weight: bold;
-   display: block; 
-} 
-
-#navi ul a:visited { 
-   margin: 0; 
-   padding: 0; 
-   text-decoration: none;
-   font-weight: bold;
-   color: #E4E5D9;
-   display: block; 
-} 
-
-#navi ul li a:hover { 
-   margin: 0; 
-   padding: 0; 
-   text-decoration: none; 
-   font-weight: bold; 
-   font-size: medium;
-   display: block; 
-} 
-
-#name {
-   color: #E4E5D9;
-   font-size: large;
-}
-
-#contact {
-   color: #E4E5D9;
-   font-size: small;
-}
-
-#resumelink {
-   color: #E4E5D9;
-   font-size: small;
+#contact_strip {
+	text-align: center;
+	font-weight: bold;
+	font-size: 100%;
+	background-color: #B8E3E5;
+	color: #856D5D;
+	padding-top: 0.2%;
+	padding-bottom: 0.2%;
 }

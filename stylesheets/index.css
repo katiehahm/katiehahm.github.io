@@ -1,0 +1,41 @@
+#main_strip {
+	text-align: center;
+	font-weight: bold;
+	font-size: 300%;
+	background-color: #74C6CA;
+	color: white;
+	padding-top: 2.5%;
+	padding-bottom: 2.5%;
+	position: fixed;
+	top: 68px;
+	width: 100%;
+}
+
+#main_strip p {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#everything {
+	margin-top: 230px;
+}
+
+#shortdesc {
+	text-align: center;
+}
+
+#interests {
+	margin: 0px auto;
+	width: 70%;
+}
+
+#interests td {
+	/*text-align: left;*/
+	padding: 2%;
+	background-color: #FFF0E6;
+}
+
+#interests th {
+	background-color: #FFF0E6;
+	padding: 0 4% 2% 4%;
+}
