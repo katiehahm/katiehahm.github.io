@@ -1,7 +1,10 @@
+/*image shapes*/
 .circle {
     border-radius: 50% 50% 50% 50%;
     width: 150px;
     height: 150px;
+    margin-left: 6%;
+    margin-top: 6%;
 }
 
 .circlesm {
@@ -11,4 +14,16 @@
     margin-left: 30%;
     margin-top: 2%;
     margin-bottom: 2%;
+}
+
+.rectangle1 {
+    height: 300px;
+}
+
+.title {
+    font-size: 50px;
+}
+
+.title p {
+    margin: 2.7%;
 }
