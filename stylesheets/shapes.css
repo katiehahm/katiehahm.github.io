@@ -27,3 +27,12 @@
 .title p {
     margin: 2.7%;
 }
+
+.titlesm {
+    font-size: 35px;
+}
+
+.titlesm p {
+    margin: 2.7%;
+    text-align: center;
+}
